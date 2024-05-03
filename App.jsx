@@ -37,12 +37,12 @@ const App = () => {
         //   headerShown: false, // Remove the header
         // }}
       >
-        <Tab.Screen name='WeatherApp' component={HomeScreen} />
-        <Tab.Screen name="Weather" component={AboutScreen} />
+        <Tab.Screen name='WeatherApp' component={HomeScreen}  options={{ headerShown: false }}/>
+        <Tab.Screen name="Weather" component={AboutScreen}  options={{ headerShown: false }}/>
         <Tab.Screen
           name="Notification"
           component={SettingScreen}
-          options={{ tabBarBadge: 4 }}
+          options={{ tabBarBadge: 4,headerShown: false }}
         />
       </Tab.Navigator>
     </NavigationContainer>

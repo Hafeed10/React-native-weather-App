@@ -167,6 +167,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#7596d0',
         borderRadius: 20,
         padding: 10,
+        width: 190,
+        height: 100,
     },
     scrollItem2: {
         flexDirection: 'row',
@@ -177,6 +179,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#061633',
         borderRadius: 20,
         padding: 10,
+        width: 190,
+        height: 100,
     },
     scrollItem4: {
         flexDirection: 'row',
@@ -187,6 +191,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#111213',
         borderRadius: 20,
         padding: 10,
+        width: 190,
+        height: 100,
     },
     scrollItem3: {
         flexDirection: 'row',
@@ -197,6 +203,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#ced67f',
         borderRadius: 20,
         padding: 10,
+        width: 190,
+        height: 100,
     },
     dgree: {
       fontSize: 15,
